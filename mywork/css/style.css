@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    display: inline-block
+}
+
+header nav ul{
+    margin-top: 40px;
+}
+
+nav ul li a{   
+    padding:12px 30px;
+    color: #999;
+    text-decoration: none;
+
+}
+
+.brand{
+    margin-top: 0px;
+    float: left;
+    padding-left: 0px;
+    /* margin-left: 0; */
+}
+
+.brand li a{
+    color:rgb(26, 26, 218);
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.img{
+    width: 100%;
+}
+
+.header-content{
+    margin-top: 100px;
+}
+
+.header-content h2{
+    text-transform: uppercase;
+    color: rgb(44, 44, 44);
+}
+.text-gray{
+    color:#999;
+}
+.btn{
+        background: #4400f5;
+    padding: 10px 23px;
+    border: 0px;
+    border-radius: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
