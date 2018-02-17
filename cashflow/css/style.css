@@ -1,0 +1,26 @@
+*{
+    font-family:  'Open Sans', sans-serif;
+}
+body{
+
+    background: linear-gradient(to right, rgb(44, 143, 175) 0%,rgb(121, 184, 204) 40%,rgb(172, 233, 253) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 */
+}
+.container{
+    background-color:white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+header nav ul li a{
+    padding: 30px;
+    text-decoration: none;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    /* float: right; */
+}
